@@ -193,18 +193,6 @@ a:hover {
   margin-left: 30px;
 }
 
-.destination--siberia {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
 .destination--siberia__img {
   max-width: 740px;
   width: 100%;
@@ -213,15 +201,6 @@ a:hover {
 }
 
 .destination--groenlandia, .destination--antartida {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   height: 300px;
 }
 
@@ -337,5 +316,17 @@ a:hover {
 
 .footer__twitter:hover, .footer__facebook:hover, .footer__youtube:hover {
   opacity: 1;
+}
+
+.destination--siberia, .destination--groenlandia, .destination--antartida {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=style.css.map */
