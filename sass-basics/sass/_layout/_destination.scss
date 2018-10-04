@@ -1,3 +1,4 @@
+
 .destination {
     padding: 80px 0;
     &__border {
@@ -14,7 +15,7 @@
       &__img {
         max-width: 740px;
         width: 100%;
-        @include height_display;
+        @extend %height_display;
       }
     }
     &--groenlandia,
@@ -24,7 +25,7 @@
       &__img {
         max-height: 300px;
         width: 100%;
-        @include height_display;
+        @extend %height_display;
       }
       &__wrapper-img {
         width: 50%;

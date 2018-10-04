@@ -1,3 +1,20 @@
+.banner, .destination, .destination--siberia__img, .destination--groenlandia__img, .destination--antartida__img {
+  height: auto;
+  display: block;
+}
+
+.destination--siberia, .destination--groenlandia, .destination--antartida {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +27,7 @@ html {
 }
 
 body {
-  font-family: Nunito;
+  font-family: "Nunito";
   font-size: 16px;
 }
 
@@ -42,6 +59,75 @@ a:hover {
 .transition {
   -webkit-transition: all 1s;
   transition: all 1s;
+}
+
+.classe-teste {
+  width: 50px;
+  height: 50px;
+}
+
+.col-for-1 {
+  width: 20%;
+}
+
+.col-for-2 {
+  width: 40%;
+}
+
+.col-for-3 {
+  width: 60%;
+}
+
+.col-for-4 {
+  width: 80%;
+}
+
+.col-for-5 {
+  width: 100%;
+}
+
+.col-while-1 {
+  width: 20%;
+}
+
+.col-while-2 {
+  width: 40%;
+}
+
+.col-while-3 {
+  width: 60%;
+}
+
+.col-while-4 {
+  width: 80%;
+}
+
+.col-while-5 {
+  width: 100%;
+}
+
+.primaria {
+  color: #829dad;
+}
+
+.auxiliar {
+  color: #000;
+}
+
+.branco {
+  color: #FFF;
+}
+
+.principal {
+  font-family: "Nunito";
+}
+
+.auxiliar {
+  font-family: "Arial, sans serif";
+}
+
+.base {
+  font-family: "Montserrat";
 }
 
 .btn {
@@ -130,6 +216,13 @@ a:hover {
   letter-spacing: 8px;
 }
 
+@media only screen and (max-width: 900px) {
+  .banner__title {
+    font-size: 60px;
+    width: 100%;
+  }
+}
+
 @media (max-width: 850px) {
   .banner__title {
     font-size: 60px;
@@ -196,8 +289,6 @@ a:hover {
 .destination--siberia__img {
   max-width: 740px;
   width: 100%;
-  height: auto;
-  display: block;
 }
 
 .destination--groenlandia, .destination--antartida {
@@ -207,8 +298,6 @@ a:hover {
 .destination--groenlandia__img, .destination--antartida__img {
   max-height: 300px;
   width: 100%;
-  height: auto;
-  display: block;
 }
 
 .destination--groenlandia__wrapper-img, .destination--antartida__wrapper-img {
@@ -316,17 +405,5 @@ a:hover {
 
 .footer__twitter:hover, .footer__facebook:hover, .footer__youtube:hover {
   opacity: 1;
-}
-
-.destination--siberia, .destination--groenlandia, .destination--antartida {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 /*# sourceMappingURL=style.css.map */
